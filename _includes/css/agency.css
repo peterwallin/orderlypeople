@@ -317,7 +317,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 40px;
 
-        font-family: {{ site.data.template.font.primary }};
+        /*font-family: {{ site.data.template.font.primary }};*/
+        font-family: : {{ site.data.template.font.third }};
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
