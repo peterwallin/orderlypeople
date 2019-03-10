@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/bg-alternative.jpg');
+    background-image: url('{{ site.baseurl }}/img/hands-up.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -307,7 +307,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         font-style: italic;
@@ -315,8 +315,8 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
+        margin-bottom: 40px;
+
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
