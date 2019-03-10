@@ -45,13 +45,13 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
-    url:
+    url: #
   - title: facebook
-    url:
+    url: #
   - title: linkedin
-    url:
+    url: #
   - title: email
-  url: info@orderlypeople.se
+  url: #
 
 # Postal address (add as many lines as necessary)
 address:
