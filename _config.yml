@@ -4,60 +4,33 @@ baseurl: /orderlypeople/
 # Site settings
 title: Orderly People
 email: info@orderlypeople.se
-description: "Orderly People - konsulter inom medtech i Sverige."
+description: "Orderly People - Professional medtech consultants Stockholm."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Maria Jansson
   pic: 1
-  position: Lead Designer
+  position: VD
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
+      url: # https://www.linkedin.com/in/maria-jansson-3565635/
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram
+    url:
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: linkedin
+    url:
+  - title: email
+  url: info@orderlypeople.se
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Folk.gatan 136
+  - line: Folkungagatan 136
   - line: Stockholm Sverige
 
 # Build settings
