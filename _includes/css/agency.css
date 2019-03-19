@@ -187,6 +187,20 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-default .navbar-brandslogan{
+    font-family: "Lato","Kaushan Script","Helvetica Neue",Helvetica,Arial;
+    font-style: italic;
+    font-size: 16px;
+    color: #{{ site.data.template.color.primary }};
+}
+.navbar-default .navbar-brandslogan:hover,
+.navbar-default .navbar-brandslogan:focus,
+.navbar-default .navbar-brandslogan:active,
+.navbar-default .navbar-brandslogan.active {
+    color: #{{ site.data.template.color.secondary }};
+}
+
+
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
 }
