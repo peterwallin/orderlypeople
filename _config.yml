@@ -2,10 +2,10 @@ url: https://peterwallin.github.io/
 baseurl: /orderlypeople/
 
 # Site settings
-title: "Orderly People"
+title: 'Orderly People'
 email: info@orderlypeople.se
 description: "Orderly People - Professional medtech consultants Stockholm."
-address: "Folkungagatan 136, 116 30 Stockholm"
+address: 'Folkungagatan 136, 116 30 Stockholm'
 phonenumber: '0713-123123'
 
 
