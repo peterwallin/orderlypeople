@@ -65,6 +65,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-primaryblue {
+    background-color: #336287;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -325,7 +329,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 30px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 24px;
         font-style: italic;
         line-height: 40px;
     }
