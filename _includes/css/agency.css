@@ -312,7 +312,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     /*text-transform: uppercase;*/
     font-family: {{ site.data.template.font.third }};
-    color: {{ site.data.template.color.primary }};
+    color:#123414
     text-shadow: -10px -10px 0 #000,
     font-size: 40px;
     font-weight: 700;
