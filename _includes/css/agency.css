@@ -303,8 +303,8 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     color:#000000
-    font-size: 22px;
-    font-style: italic;
+    font-size: 28px;
+
     line-height: 22px;
 }
 
@@ -313,7 +313,8 @@ header .intro-text .intro-heading {
     /*text-transform: uppercase;*/
     font-family: {{ site.data.template.font.third }};
     color:#000000
-    font-size: 50px;
+    text-shadow: -10px -10px 0 #000,
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
