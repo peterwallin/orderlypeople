@@ -181,6 +181,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Lato","Kaushan Script","Helvetica Neue",Helvetica,Arial;
+    font-size: 28px;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -194,7 +195,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brandslogan{
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial;
     font-style: italic;
-    font-size: 14px;
+    font-size: 28px;
     color: #{{ site.data.template.color.primary }};
 }
 .navbar-default .navbar-brandslogan:hover,
