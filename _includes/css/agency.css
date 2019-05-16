@@ -366,6 +366,13 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+section h4.section-white-heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #fff;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
