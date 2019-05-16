@@ -65,10 +65,6 @@ h6 {
     background-color: #f7f7f7;
 }
 
-.bg-primaryblue {
-    background-color: #336287;
-}
-
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -134,6 +130,8 @@ fieldset[disabled] .btn-primary.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
+
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -181,7 +179,6 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Lato","Kaushan Script","Helvetica Neue",Helvetica,Arial;
-    font-size: 28px;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -195,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brandslogan{
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial;
     font-style: italic;
-    font-size: 28px;
+    font-size: 14px;
     color: #{{ site.data.template.color.primary }};
 }
 .navbar-default .navbar-brandslogan:hover,
@@ -227,8 +224,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 500;
-
+    font-weight: 400;
+    letter-spacing: 1px;
     color: #fff;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
@@ -288,7 +285,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/bg4.jpg');
+    background-image: url('{{ site.baseurl }}/img/hands-up.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -330,7 +327,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 30px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 24px;
+        font-size: 40px;
         font-style: italic;
         line-height: 40px;
     }
@@ -340,10 +337,9 @@ header .intro-text .intro-heading {
 
         /*font-family: {{ site.data.template.font.primary }};*/
         font-family: : {{ site.data.template.font.third }};
-        font-size: 65px;
+        font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-
     }
 }
 
@@ -364,13 +360,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-section h4.section-white-heading {
-  margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 40px;
-  color: #fff;
 }
 
 @media(min-width:768px) {
